@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Filip Krátký – fotograf akcí</title>
+<meta name="description" content="Fotím koncerty, festivaly a firemní akce. Přes šest let zkušeností. Svatby jako doplněk.">
+<meta property="og:title" content="Filip Krátký – fotograf akcí">
+<meta property="og:description" content="Fotím koncerty, festivaly a firemní akce. Přes šest let zkušeností. Svatby jako doplněk.">
+<!-- Až budeš mít náhledový obrázek, ulož ho jako og-image.jpg vedle index.html a odkomentuj: -->
+<!-- <meta property="og:image" content="og-image.jpg"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="beam a" aria-hidden="true"></div>
+  <div class="beam b" aria-hidden="true"></div>
+
+  <div class="wrap">
+    <nav aria-label="Hlavní menu">
+      <a class="brand" href="index.html">Filip Krátký</a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul class="menu" id="menu">
+        <li><a href="index.html" aria-current="page">Domů</a></li>
+        <li><a href="sluzby.html">Co fotím</a></li>
+        <li><a href="o-mne.html">O mně</a></li>
+        <li><a href="https://www.zonerama.com/filipkratky" target="_blank" rel="noopener">Portfolio ↗</a></li>
+        <li><a class="pill" href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-body">
+      <p class="tag">Fotím koncerty, festivaly a firemní akce</p>
+      <h1>Ahoj, já jsem Filip</h1>
+      <p class="lead">Přes šest let fotím lidi v okamžicích, které se nedají zopakovat. Hudbu, atmosféru a všechno, co se děje mezi tím.</p>
+      <div class="cta">
+        <a class="btn primary" href="kontakt.html">Napsat mi</a>
+        <a class="btn ghost" href="https://www.zonerama.com/filipkratky" target="_blank" rel="noopener">Celé portfolio</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="motto">
+    <div class="wrap">
+      <p>Akce se stane jednou. Fotky z ní vydrží.</p>
+    </div>
+  </section>
+
+  <section class="what">
+    <div class="wrap">
+      <h2>Co fotím</h2>
+      <p class="sub">Hlavně akce, kde se věci dějí rychle a světlo se mění každou vteřinu.</p>
+      <ul>
+        <li>
+          <h3>Koncerty a festivaly</h3>
+          <p>Umělci na pódiu, publikum pod ním a energie, která se nedá popsat slovy.</p>
+        </li>
+        <li>
+          <h3>Firemní akce</h3>
+          <p>Konference, večírky, teambuildingy a oslavy. Lidi zachytím přirozeně.</p>
+        </li>
+        <li class="minor">
+          <h3>Svatby</h3>
+          <p>Fotím je jako doplněk k hlavní práci. Napiš mi a domluvíme se.</p>
+        </li>
+      </ul>
+      <p class="more"><a class="btn dark" href="sluzby.html">Víc o tom, co fotím</a></p>
+    </div>
+  </section>
+
+  <section class="work">
+    <div class="wrap">
+      <h2>Ukázky z práce</h2>
+      <p class="sub">Výběr z posledních akcí. Všechny fotky najdeš v portfoliu.</p>
+
+      <!--
+        JAK VLOŽIT SVOJE FOTKY:
+        1) Vytvoř ve složce s webem složku "img".
+        2) Nahraj do ní fotky pojmenované foto-1.jpg až foto-6.jpg (bez diakritiky, bez mezer).
+        3) Přepiš popisky (figcaption) a alt texty.
+        Dokud fotka chybí, zobrazí se tmavá plocha.
+      -->
+      <div class="grid">
+        <figure class="tile t1">
+          <img src="img/foto-1.jpg" alt="Koncert – doplň popis" loading="lazy" onerror="this.remove()">
+          <figcaption>Koncert – doplň název akce</figcaption>
+        </figure>
+        <figure class="tile t2">
+          <img src="img/foto-2.jpg" alt="Festival – doplň popis" loading="lazy" onerror="this.remove()">
+          <figcaption>Festival</figcaption>
+        </figure>
+        <figure class="tile t3">
+          <img src="img/foto-3.jpg" alt="Firemní akce – doplň popis" loading="lazy" onerror="this.remove()">
+          <figcaption>Firemní akce</figcaption>
+        </figure>
+        <figure class="tile t4">
+          <img src="img/foto-4.jpg" alt="Koncert – doplň popis" loading="lazy" onerror="this.remove()">
+          <figcaption>Koncert</figcaption>
+        </figure>
+        <figure class="tile t5">
+          <img src="img/foto-5.jpg" alt="Festival – doplň popis" loading="lazy" onerror="this.remove()">
+          <figcaption>Festival</figcaption>
+        </figure>
+        <figure class="tile t6">
+          <img src="img/foto-6.jpg" alt="Svatba – doplň popis" loading="lazy" onerror="this.remove()">
+          <figcaption>Svatba</figcaption>
+        </figure>
+      </div>
+
+      <p class="more"><a class="btn dark" href="https://www.zonerama.com/filipkratky" target="_blank" rel="noopener">Otevřít portfolio na Zoneramě</a></p>
+
+      <div class="soon">
+        <span class="lock" aria-hidden="true">🔒</span>
+        <div>
+          <strong>Připravuji</strong>
+          Ceník a balíčky. Do té doby mi napiš a pošlu nabídku na míru.
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section class="contact">
+  <div class="wrap">
+    <h2>Pojďme to vyfotit</h2>
+    <p>Napiš mi datum, místo a o jakou akci jde. Ozvu se co nejdřív.</p>
+    <!-- TODO: změň na svůj e-mail -->
+    <a class="mail" href="mailto:tvuj@email.cz">tvuj@email.cz</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Filip Krátký · <a href="https://instagram.com/tvuj.instagram">@tvuj.instagram</a> · <a href="https://www.zonerama.com/filipkratky" target="_blank" rel="noopener">Zonerama</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
